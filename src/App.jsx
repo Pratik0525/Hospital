@@ -5,8 +5,8 @@ import About from "./Components/About";
 import Blog from "./Components/Blog";
 import Navbar from "./Components/Navbar";
 import Contact from "./Components/Contact";
-import Sidebar from "./Sidebar/Sidebar";
 
+import Footer from "./Footer/Footer";
 const App = () => {
   return (
     <>
@@ -21,7 +21,8 @@ const App = () => {
             </Route>
           </Routes>
         </Router>
-        <Sidebar />
+
+        <Footer />
       </div>
     </>
   );

@@ -1,9 +1,13 @@
 import React from "react";
-
+import SearchBar from "../Search/Searchbaar";
+import Sidebar from "../Sidebar/Sidebar";
 const Home = () => {
   return (
     <>
-      <div></div>
+      <div>
+        <SearchBar />
+        <Sidebar />
+      </div>
     </>
   );
 };
