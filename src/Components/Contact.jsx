@@ -23,7 +23,7 @@ function Contact() {
             alt=""
             className="w-full box object-cover  h-72  "
           />
-          <div className="w-full bg-black absolute top-0 opacity-60  h-72 "></div>
+          <div className="w-full bg-black absolute top-0 opacity-90  h-72 "></div>
           <div className="md:text-7xl text-5xl absolute top-0 bottom-0 left-0 right-0 flex justify-center items-center text-white  font-bold ">
             Contact Here
           </div>
