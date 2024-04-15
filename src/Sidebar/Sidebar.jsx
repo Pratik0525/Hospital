@@ -1,5 +1,6 @@
 import React from "react";
 import { IoMdSearch } from "react-icons/io";
+import { motion } from "framer-motion";
 const Sidebar = () => {
   const signButton = [
     {
@@ -43,13 +44,18 @@ const Sidebar = () => {
   return (
     <>
       <div>
-        <div className="w-full h-fit bg-green-500">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          className="w-full h-fit bg-green-500"
+        >
           <img
             src="./src/assets/mainbanner.jpg"
             alt=""
             className="object-cover"
           />
-        </div>
+        </motion.div>
         <div className="flex">
           <div className="w-80 h-screen bg-[#FDE2FF] flex flex-col ">
             <div className="relative">

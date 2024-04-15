@@ -1,16 +1,27 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 const Ourmission = () => {
   return (
     <>
-      <div className="bg-pink-200 h-fit w-full  ">
+      <div className="bg-blue-100 h-fit w-full  py-16">
         <div className="w-10/12 mx-auto grid  grid-cols-2">
           <div className="py-10">
             <div className="flex flex-col justify-center items-center gap-8 ">
-              <span className="text-5xl text-[#6C46AB] font-bold underline">
+              <motion.span
+                initial={{ opacity: 0, y: 200 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
+                className="text-5xl text-[#6C46AB] font-bold underline"
+              >
                 Our Missions
-              </span>
-              <p align="left" className="w-10/12">
+              </motion.span>
+              <motion.p
+                initial={{ opacity: 0, y: 200 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
+                align="left"
+                className="w-10/12"
+              >
                 Our mission at Swasthya Yatri is to revolutionize healthcare
                 accessibility by providing a user-friendly platform that
                 seamlessly connects individuals with nearby doctors and
@@ -20,15 +31,18 @@ const Ourmission = () => {
                 medical services. By leveraging technology, we strive to empower
                 individuals to take control of their health journey, fostering a
                 healthier and more informed community.
-              </p>
+              </motion.p>
             </div>
           </div>
-          <div className=" flex justify-center items-center relative ">
+          <div className=" flex justify-center items-center relative  ">
             <div className=" ">
-              <img
+              <motion.img
+                initial={{ opacity: 1, x: 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1 }}
                 src="./src/assets/dt_150501_doctor_patient_ipad_tablet_800x600.jpg"
                 alt=""
-                className="w-96 h-96 object-cover border-8 border-gray-200  rounded-lg absolute -top-10 right-24"
+                className="w-96 h-96 object-cover border-8 border-gray-200  rounded-lg absolute top-0 right-24"
               />
             </div>
           </div>

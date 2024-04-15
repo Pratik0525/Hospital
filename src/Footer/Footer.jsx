@@ -16,7 +16,7 @@ const Footer = () => {
                   />
                 </div>
                 <div className=" w-1/2 flex flex-col justify-center items-center">
-                  <p className="text-3xl text-[#C2C25A]">Swasthya Yatri</p>
+                  <p className="text-2xl text-[#C2C25A]">Swasthya Yatri</p>
                   <span className="text-sm text-[#c6c6c6]">
                     Butwal-09, Rupandehi
                   </span>
@@ -27,7 +27,7 @@ const Footer = () => {
               align="center"
               className=" border-2 border-transparent w-10/12 mx-auto"
             >
-              <p className="text-[#2B2575]">
+              <p className="text-[#2B2575] text-sm" align="center">
                 "Swasthya Yatri" is your trusted companion on the journey
                 towards better health. Our app seamlessly connects users with
                 nearby doctors, making it easy to schedule appointments and

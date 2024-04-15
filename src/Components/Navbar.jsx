@@ -27,7 +27,7 @@ const Navbar = () => {
   ];
   return (
     <>
-      <div className="h-20 w-full bg-[#E4E4E4] flex justify-between items-center">
+      <div className="h-20 w-full bg-blue-700 flex justify-between items-center ">
         <div className="bg-white w-16 h-16 ml-28 rounded-full ">
           <img
             src="./src/assets/OIP.jpeg"
@@ -45,7 +45,7 @@ const Navbar = () => {
                 <Link
                   key={i}
                   to={val.path}
-                  className="   text-lg transition-all delay-100 duration-300 ease-in-out "
+                  className="   text-lg transition-all delay-100 duration-300 ease-in-out text-white "
                 >
                   {val.title}
                 </Link>
@@ -66,7 +66,7 @@ const Navbar = () => {
                 <Link
                   key={i}
                   to={val.path}
-                  className="  text-lg transition-all delay-100 duration-300 ease-in-out "
+                  className="  text-lg transition-all delay-100 duration-300 ease-in-out text-white "
                 >
                   {val.title}
                   {dropDown && <DropDowns />}
